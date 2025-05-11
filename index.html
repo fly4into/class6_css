@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- 웹폰트: Noto Serif KR + SUIT -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suit-webfont@1.0.0/suit.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>문채원 배우 소개</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Serif KR', serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'SUIT', sans-serif;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    .section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      clear: both;
+    }
+
+    .header {
+      background-color: #f8f1f1;
+      text-align: center;
+    }
+
+    .profile {
+      background-color: #f4f8fb;
+    }
+
+    .profile ul, .links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .profile li, .links li {
+      margin-bottom: 8px;
+    }
+
+    .profile-image {
+      width: 160px;
+      height: 160px;
+      margin: 20px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery {
+      background-color: #f6f3f9;
+    }
+
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery-item {
+      width: 220px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .gallery-item p {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .links {
+      background-color: #f2f8f2;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #2c3e50;
+    }
+
+    .links a:hover {
+      color: #7f8c8d;
+    }
+
+    .footer {
+      background-color: #eeeeee;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header class="section header">
+    <h1>문채원</h1>
+    <div class="profile-image">
+      <img src="moon.jpg" alt="문채원 프로필" />
+    </div>
+  </header>
+
+  <section class="section profile">
+    <h2>profile</h2>
+    <ul>
+      <li>이름: 문채원</li>
+      <li>생년월일: 1986년 11월 13일</li>
+      <li>신장: 168cm</li>
+      <li>소속사: 나무엑터스</li>
+    </ul>
+
+    <h2>flimography</h2>
+    <div class="sub-section">
+      <h3>드라마</h3>
+      <ul>
+        <li>착한 남자</li>
+        <li>악의 꽃</li>
+        <li>불가살</li>
+      </ul>
+    </div>
+    <div class="sub-section">
+      <h3>영화</h3>
+      <ul>
+        <li>최종병기 활</li>
+        <li>그날의 분위기</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section gallery">
+    <h2>gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="moon_2.jpg" alt="이미지1">
+        <p>[이미지1]</p>
+      </div>
+      <div class="gallery-item">
+        <img src="moon_3.jpg" alt="이미지2">
+        <p>[이미지2]</p>
+      </div>
+      <div class="gallery-item">
+        <img src="moon_4.jpg" alt="이미지3">
+        <p>[이미지3]</p>
+      </div>
+    </div>
+  </section>
+<!-- Instagram 공식 링크 섹션 -->
+<section class="section links">
+  <h2>Official Links</h2>
+  <ul>
+    <li><a href="https://www.instagram.com/moonchaewon_official" target="_blank">Instagram</a></li>
+  </ul>
+</section>
+
+
+  <footer class="section footer">
+    <p>© 2025 과제로 작성한 문채원 소개 페이지</p>
+  </footer>
+
+</body>
+</html>
